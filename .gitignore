@@ -1,0 +1,54 @@
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.pdb
+*.obj
+*.idb
+*.ipdb
+*.iobj
+*.ilk
+*.tlog
+*.manifest
+*.res
+*.pch
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.aps
+*.vspscc
+*.vssscc
+*.vssettings
+*.vshost.*
+*.vsmdi
+*.vsmproj
+*.deploy
+*.publish.xml
+*.publish.htm
+*.publish.settings
+
+# Visual Studio Code
+.vscode/
+
+#C++
+# C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+
+#Cmake
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CTestTestfile.cmake
+
+build/
+
+[Bb][Uu][Ii][Ll][Dd]/
+
+
