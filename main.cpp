@@ -2,9 +2,7 @@
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
 
-// #include <gl.h>
-
-// Include GLFW after gl.h
+// Include GLFW after IMGUI OpenGL definitions
 #include <GLFW/glfw3.h>
 
 #include <iostream>
@@ -72,8 +70,8 @@ int main()
     bool alvis_chekbox = false;
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
-    ImFont *font1 = io.Fonts->AddFontFromFileTTF("../fonts/FiraCodeNerdFontPropo-Regular.ttf", 24);
-    ImFont *font2 = io.Fonts->AddFontFromFileTTF("../fonts/FiraCodeNerdFontPropo-Regular.ttf", 18);
+    ImFont *font1 = io.Fonts->AddFontFromFileTTF("./fonts/FiraCodeNerdFontPropo-Regular.ttf", 24);
+    ImFont *font2 = io.Fonts->AddFontFromFileTTF("./fonts/FiraCodeNerdFontPropo-Regular.ttf", 18);
 
     // Generate OpenGL texture for the image
     GLuint image_texture;

@@ -1,1 +1,1 @@
-./out/build/debug/MyProject.exe
+.\out\build\debug\MyProject.exe

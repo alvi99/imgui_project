@@ -18,6 +18,13 @@ link_directories(external/glfw/src)
 
 link_libraries(glfw opengl32)
 set(CMAKE_CXX_STANDARD 11)
-add_executable(${PROJECT_NAME} main.cpp ${IMGUI_SRC})
 
-file(COPY fonts DESTINATION ${CMAKE_BINARY_DIR})
+IF(WIN32)
+    add_executable(${PROJECT_NAME} main.cpp ${IMGUI_SRC})
+ELSEIF (LINUX)
+    error( "Only works for windows for now" )
+ELSE()
+    error( "Only works for windows for now" )
+
+ENDIF()
+
